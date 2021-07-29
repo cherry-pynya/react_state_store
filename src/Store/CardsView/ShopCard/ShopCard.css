@@ -1,0 +1,43 @@
+.Store-cardsView-ShopCard {
+  width: 400px;
+  height: 400px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  margin: 20px;
+}
+
+.Store-cardsView-ShopCard-img {
+  height: 70%;
+}
+
+.Store-cardsView-ShopCard-name {
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+
+.Store-cardsView-ShopCard-btn-container {
+  display: flex;
+  width: 60%;
+  padding-bottom: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Store-cardsView-ShopCard-btn {
+  background-color: transparent;
+  border: 1px solid #f25f1f;
+  border-radius: 20px;
+  color: #f25f1f;
+  height: 30px;
+  text-transform: uppercase;
+}
+
+.Store-cardsView-ShopCard-price {
+  text-transform: uppercase;
+  color: #f25f1f;
+  font-size: 24px;
+}

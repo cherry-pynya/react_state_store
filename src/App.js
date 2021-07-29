@@ -1,5 +1,7 @@
 import Store from './Store/Store';
 
+import './App.css'
+
 const products = [{
   name: "Nike Metcon 2",
   price: "130",
